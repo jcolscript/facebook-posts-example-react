@@ -1,0 +1,61 @@
+#nav-container {
+  font-size: 18px;
+  line-height: 1.77;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+}
+
+.nav_primary_placeholder {
+  height: 72px;
+  position: relative;
+}
+
+.nav {
+  height: 72px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #4a90e2;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  line-height: 0.6;
+}
+
+.nav__container {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.brand__logo {
+  display: inline-block;
+  outline: none;
+}
+
+.userInfo {
+  margin-left: auto;
+  display: flex;
+}
+
+.userInfo span {
+  margin-left: auto;
+  align-self: center;
+  margin-left: 10px;
+  color: #fff;
+}
