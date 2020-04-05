@@ -2,9 +2,15 @@ import React, { Component } from "react";
 
 import Header from "../Header";
 
+import "./style.css";
+
 class Main extends Component {
   render() {
-    return <Header />;
+    return (
+      <div className="main">
+        <Header />
+      </div>
+    );
   }
 }
 
