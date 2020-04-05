@@ -1,0 +1,18 @@
+.feed-container {
+  display: flex;
+  min-width: 0;
+  flex-basis: 50%;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.posts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 700px;
+}

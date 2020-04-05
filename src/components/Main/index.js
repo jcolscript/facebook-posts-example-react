@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Header from "../Header";
+import PostList from "../PostList";
 
 import "./style.css";
 
@@ -9,6 +10,7 @@ class Main extends Component {
     return (
       <div className="main">
         <Header />
+        <PostList />
       </div>
     );
   }
