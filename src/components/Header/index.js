@@ -16,7 +16,7 @@ class Header extends Component {
               </div>
               <div className="userInfo">
                 <span>Meu perfil</span>
-                <span class="material-icons">account_circle</span>
+                <span className="material-icons">account_circle</span>
               </div>
             </div>
           </div>
