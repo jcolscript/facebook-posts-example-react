@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Comment from "../Comment";
+
 class Post extends Component {
   render() {
     return (
@@ -15,13 +17,7 @@ class Post extends Component {
         {this.props.comments && <div className="divider"></div>}
         {this.props.comments &&
           this.props.comments.map(comment => (
-            <div className="comment" key={comment.id}>
-              <img className="avatar" src={comment.author.avatar} />
-              <div className="content">
-                <span>{comment.author.name}</span>
-                <p>{comment.content}</p>
-              </div>
-            </div>
+            <Comment key={comment.id} comment={comment} />
           ))}
       </div>
     );
