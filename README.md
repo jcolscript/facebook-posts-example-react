@@ -12,6 +12,12 @@ Facebook Posts
 
 <hr />
 
+## Recursos
+
+Este aplicativo apresenta todas as mais recentes ferramentas e práticas em desenvolvimento
+
+- **React** — Uma biblioteca JavaScript para criar interfaces de usuário
+
 ## Começando
 
 1. Clone este repositório usando `git clone https://github.com/jcolscript/facebook-posts-example-react.git`
